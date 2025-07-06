@@ -1,44 +1,61 @@
-# QuillBot (Modded Edition)
+# QuillBot (Modded Edition) — Chrome/Edge Extension
 
-> **Paraphrasing. Rewritten. Unplugged.**  
-> Your favorite QuillBot tool — now fully offline, with local file support and improved stability.
-
----
-
-## ✨ What is This?
-
-This is a **modified version of QuillBot** — the powerful AI paraphrasing and rewriting tool.  
-In this version, we’ve enabled **loading files from your local device** instead of fetching content over the internet.  
-We’ve also fixed bugs and given the UI a cleaner look by removing the original coffee icon.
+A privacy-focused, locally-enhanced version of QuillBot as a browser extension.  
+Supports loading text files directly from your device, includes stability improvements, and features a cleaner UI.
 
 ---
 
-## 🚀 Key Modifications
+## Overview
 
-- **Local File Loading:**  
-  Easily upload and paraphrase text files from your device, with no need for internet-based fetching.
+This is a modified release of the QuillBot browser extension.  
+**Key enhancements:**
+- **Local file support:** Load and paraphrase text files from your device.
+- **Bug fixes:** Improved error handling and reliability.
+- **UI update:** Removed the coffee icon for a streamlined interface.
 
-- **Bug Fixes:**  
-  Improved error handling, smoother operation, and a more robust user experience.
-
-- **UI Clean-up:**  
-  The distracting coffee icon has been removed for a sleeker, distraction-free interface.
-
----
-
-## ⚡ Features
-
-- AI-powered paraphrasing & rewriting
-- Paste or upload text files directly from your computer
-- No internet connection required for file access/paraphrasing
-- Fast, stable, and privacy-friendly
-- Clean, minimal interface
+All paraphrasing features are available without relying on online file fetching, improving privacy and convenience.
 
 ---
 
-## 🛠️ How to Use
+## Features
 
-1. **Clone the Repo**
+- Upload and paraphrase local text files
+- Paste text for instant rewriting
+- Operates offline for file access (no remote fetching)
+- Clean, minimal user interface
 
-```bash
-▶ [Watch Installation Guide Video](https://streamable.com/th3lnb)
+---
+
+## Installation
+
+1. **Download or clone the repository**
+    ```bash
+    git clone https://github.com/astro-algo/quill-enhanced.git
+    ```
+    Or [download as ZIP](https://github.com/astro-algo/quill-enhanced/raw/refs/heads/main/extension.zip) and extract it.
+
+2. **Open your browser’s extensions page:**
+    - Chrome: `chrome://extensions/`
+    - Edge: `edge://extensions/`
+
+3. **Enable Developer mode** (toggle in the top right).
+
+4. **Click "Load unpacked"** and select the extracted `quill-enhanced` directory.
+
+5. The extension will appear in your browser’s extension list.
+
+---
+
+## Credits
+
+- Original QuillBot Extension: [Blueagle](https://github.com/blueagler/QuillBot-Premium-Helper)
+- Modifications by [Astro](https://github.com/astro-algo)
+
+---
+
+## License
+
+This project is provided for educational and personal use only.  
+Not affiliated with or endorsed by QuillBot or its parent company.
+
+---
