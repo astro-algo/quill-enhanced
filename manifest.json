@@ -1,0 +1,46 @@
+{
+  "name": "QuillBot Premium",
+  "version": "3.0.0",
+  "description": "QuillBot Premium Feature Unlocker | Modified by Astro",
+  "manifest_version": 3,
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+   "128": "icon128.png"
+ },
+ "action": {},
+ "web_accessible_resources": [
+   {
+     "resources": [
+       "quillbot.js",
+       "inject.js",
+       "quillbot-external.js"
+     ],
+     "matches": [
+       "https://quillbot.com/*"
+     ]
+   }
+ ],
+ "content_scripts": [
+   {
+     "js": [
+       "inject.js"
+     ],
+     "matches": [
+       "https://quillbot.com/*"
+     ],
+     "all_frames": true,
+     "run_at": "document_start"
+   }
+ ],
+ "permissions": [
+   "cookies"
+ ],
+ "host_permissions": [
+   "<all_urls>"
+ ],
+ "background": {
+   "service_worker": "background.js",
+   "type": "module"
+ }
+}
